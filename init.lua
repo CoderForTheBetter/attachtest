@@ -213,5 +213,5 @@ minetest.register_chatcommand("axisRZ", {
 
 
 minetest.register_on_joinplayer(function(player)
-	--minetest.chat_send_all("Commands:  /spawn axis,  /spawn box  /mode 45,  /mode spinX,  /mode spinY,  /mode spinZ,  /rotation <x> <y> <z> (- do not work),  /setRotX <x>,  /setRotY <y>,  /setRotZ [z]  /help,  /attach ab,  /attach ba")
+	minetest.chat_send_all("Commands:  /spawn axis,  /spawn box  /attach ab (attach box to axis),  /attach ba (attach axis to box),  /boxPX <x>,  /boxPY <y>,  /boxPZ <z>,  /axisPX <x>,  /axisPY <y>,  /axisPZ,  for rotation, replace 'P' in the previous commands with 'R'")
 end)

@@ -79,7 +79,6 @@ minetest.register_chatcommand("boxPX", {
     local pos = lastBox:get_attach_position()
     pos.x = tonumber(text)
     lastBox:set_attach_position(pos)
-    update = true
 	end,
 })
 
@@ -90,7 +89,6 @@ minetest.register_chatcommand("boxPY", {
     local pos = lastBox:get_attach_position()
     pos.y = tonumber(text)
     lastBox:set_attach_position(pos)
-    update = true
 	end,
 })
 
@@ -101,7 +99,6 @@ minetest.register_chatcommand("boxPZ", {
     local pos = lastBox:get_attach_position()
     pos.z = tonumber(text)
     lastBox:set_attach_position(pos)
-    update = true
 	end,
 })
 
@@ -113,7 +110,6 @@ minetest.register_chatcommand("axisPX", {
     local pos = lastAxis:get_attach_position()
     pos.x = tonumber(text)
     lastAxis:set_attach_position(pos)
-    update = true
 	end,
 })
 
@@ -124,7 +120,6 @@ minetest.register_chatcommand("axisPY", {
     local pos = lastAxis:get_attach_position()
     pos.y = tonumber(text)
     lastAxis:set_attach_position(pos)
-    update = true
 	end,
 })
 
@@ -135,7 +130,6 @@ minetest.register_chatcommand("axisPZ", {
     local pos = lastAxis:get_attach_position()
     pos.z = tonumber(text)
     lastAxis:set_attach_position(pos)
-    update = true
 	end,
 })
 
@@ -150,7 +144,6 @@ minetest.register_chatcommand("boxRX", {
     local rot = lastBox:get_attach_rotation()
     rot.x = tonumber(text)
     lastBox:set_attach_rotation(rot)
-    update = true
 	end,
 })
 
@@ -161,7 +154,6 @@ minetest.register_chatcommand("boxRY", {
     local rot = lastBox:get_attach_rotation()
     rot.y = tonumber(text)
     lastBox:set_attach_rotation(rot)
-    update = true
 	end,
 })
 
@@ -172,7 +164,6 @@ minetest.register_chatcommand("boxRZ", {
     local rot = lastBox:get_attach_rotation()
     rot.z = tonumber(text)
     lastBox:set_attach_rotation(rot)
-    update = true
 	end,
 })
 
@@ -184,7 +175,6 @@ minetest.register_chatcommand("axisRX", {
     local rot = lastAxis:get_attach_rotation()
     rot.x = tonumber(text)
     lastAxis:set_attach_rotation(rot)
-    update = true
 	end,
 })
 
@@ -195,7 +185,6 @@ minetest.register_chatcommand("axisRY", {
     local rot = lastAxis:get_attach_rotation()
     rot.y = tonumber(text)
     lastAxis:set_attach_rotation(rot)
-    update = true
 	end,
 })
 
@@ -206,7 +195,6 @@ minetest.register_chatcommand("axisRZ", {
     local rot = lastAxis:get_attach_rotation()
     rot.z = tonumber(text)
     lastAxis:set_attach_rotation(rot)
-    update = true
 	end,
 })
 
